@@ -21,14 +21,16 @@
             android:layout_width="wrap_content"
             android:layout_height="120dp"
             android:padding="10dp"
-            android:src="@drawable/img1"/>
+            android:src="@drawable/img1"
+            tools:ignore="ContentDescription" />
 
         <ImageView
             android:id="@+id/image_2"
             android:layout_width="wrap_content"
             android:layout_height="120dp"
             android:padding="10dp"
-            android:src="@drawable/img"/>
+            android:src="@drawable/img"
+            tools:ignore="ContentDescription" />
     </LinearLayout>
 
     <EditText
@@ -42,7 +44,8 @@
         android:hint="@string/name"
         android:padding="10dp"
         android:textColor="@color/black"
-        android:textColorHint="#555555" />
+        android:textColorHint="#555555"
+        android:inputType="text" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSave"
